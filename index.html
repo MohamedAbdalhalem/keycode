@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keycode</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- css files -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class="home">
+        <nav class="navbar bg-primary py-1 mb-4">
+            <div class="container-fluid align-items-baseline">
+              <a class="navbar-brand text-white " href="#"><i class="fa-brands fa-slack"></i>Abdalhalim</a>
+              <a href="#" class=" me-auto text-white text-decoration-none">Utilities > Keycode</a>
+            </div>  
+        </nav>
+        <h3 class="text-center">JavaScript Key Code <span class="code"></span></h3>
+            <h2 class="text-center  fw-medium code"></h2>
+            <p class="text-center fw-bold  info">Key Code Information</p>
+            <div class="press mx-auto shadow text-center w-50 mt-5 p-5">
+            <p class="fs-3">Press any key to get the JavaScript event keycode info</p>
+            </div>
+        <div class="container mb-5">
+            <div class="row row-cols-1 row-cols-lg-5 g-4">
+                <div class="col">
+                    <div class="shadow h-100 bg-secondary-subtle">
+                        <header class="bg-primary text-center py-2 text-white fw-bold">event.key</header>
+                        <div class="text-center p-5 key fw-bold fs-4 bg-white"></div>
+                        <footer class="bg-secondary-subtle p-3">The value of the key pressed. Accounts for modifiers keys that return CAPS and alternate chars.</footer>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="shadow h-100 bg-secondary-subtle">
+                        <header class="bg-primary text-center py-2 text-white fw-bold">event.key</header>
+                        <div class="text-center p-5 fw-bold fs-4 loca bg-white"></div>
+                        <footer class="bg-secondary-subtle p-3">Some keys exist more than once on your keyboard. This provides the location of the key pressed. Try it with both shifts.</footer>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="shadow h-100 bg-secondary-subtle">
+                        <header class="bg-primary text-center py-2 text-white fw-bold">event.key</header>
+                        <div class="text-center p-5 fw-bold fs-4 bg-white" id="cod"></div>
+                        <footer class="bg-secondary-subtle p-3">The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.</footer>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="shadow h-100 bg-secondary-subtle">
+                        <header class="bg-primary text-center py-2 text-white fw-bold">event.key</header>
+                        <div class="text-center p-5 fw-bold fs-4 code bg-white"></div>
+                        <footer class="bg-secondary-subtle p-3">event.which and event.keyCode are deprecated in modern browsers. Use .key or .code instead.</footer>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="shadow h-100 bg-secondary-subtle">
+                        <header class="bg-primary text-center py-2 text-white fw-bold">event.key</header>
+                        <div class="text-center p-5 fw-bold fs-4 code bg-white key"></div>
+                        <footer class="bg-secondary-subtle p-3">This is the description we have created. Think it can be improved? PR us on GitHub.</footer>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- js files -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/main.js"></script>
+</body>
+</html>

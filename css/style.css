@@ -1,0 +1,13 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar a:nth-child(2){
+    font-size: 13px;
+}
+h2{
+    font-size: 150px ;
+}
+.info,.container{
+    display: none;
+}
